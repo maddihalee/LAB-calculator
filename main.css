@@ -13,12 +13,13 @@ button {
 
 .results {
   background-color: black;
-  display: block;
   width: 400px;
   height: 50px;
   color: white;
   font: 'Monospace';
+  font-size: 100px;
   height: 100px;
+  text-align: right;
 }
 
 .btn {
