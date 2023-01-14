@@ -7,6 +7,8 @@ button {
   display: flex;
   width: 400px;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: stretch;
 }
 
 .results {
@@ -15,32 +17,23 @@ button {
   width: 400px;
   height: 50px;
   color: white;
-  font: monospace;
+  font: 'Monospace';
+  height: 100px;
 }
 
+.btn {
+  flex-basis: 100px;
+  height: 100px;
+}
+
+.zero {
+  flex-basis: 75%
+}
 
 .clear {
   flex-basis: 200px;
 }
 
-.arrow {
-  width: 100px;
-}
-
-.btn {
-  width: 100px; 
-}
-
-.zero {
-  width: 300px;
-}
-
-.clear,
-.btn,
-.arrow,
-.zero {
-  background-color: #d8d9db;
-}
 
 .math {
   background-color: orange;
